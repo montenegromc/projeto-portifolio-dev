@@ -9,7 +9,8 @@ body {
 header {
     text-align: center;
     padding: 60px 20px;
-    background-color: #1a1a1a;
+    background-color: #292C34;
+    background-image: url(../assets/Background_Intro.png);
 }
 
 .profile-pic {
@@ -19,13 +20,26 @@ header {
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 56px;
     margin: 10px 0;
+    font-family:'Asap', sans-serif;
+}
+
+header h2 {
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 20px;
+    color: #C0C4CE;
 }
 
 header p {
-    font-size: 18px;
+    font-size: 16px;
     margin: 10px 0 30px;
+    font-family: 'Asap', sans-serif;
+    color: #878EA1;
+}
+
+header span  {
+    color: #E3646E;
 }
 
 .skills span {
@@ -40,7 +54,7 @@ header p {
 /* Seção projetos */
 .projetos {
     padding: 60px 20px;
-    background-color: #121212;
+    background-color: #16181D;
     text-align: center;
 }
 
@@ -81,7 +95,7 @@ header p {
 /* Seção serviços */
 .servicos {
     padding: 60px 20px;
-    background-color: #181818;
+    background-color: #0D0E11;
     text-align: center;
 }
 
@@ -124,7 +138,9 @@ header p {
 .contato {
     padding: 60px 20px;
     background-color: #101010;
+    background-image: url(../assets/Background_Contacts.png);
     text-align: center;
+    
 }
 
 .contato h2 {
